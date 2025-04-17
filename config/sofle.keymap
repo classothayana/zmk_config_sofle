@@ -27,13 +27,18 @@
         compatible = "zmk,combos";
 
         backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <19 20>;
+            bindings = <&kp SPACE>;
+            key-positions = <20 21>;
         };
 
         til {
-            bindings = <&mt TILDE A>;
-            key-positions = <25>;
+            bindings = <&mt TILDE GRAVE>;
+            key-positions = <24>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <14 15>;
         };
     };
 
